@@ -12,12 +12,6 @@ use Generated\Shared\Transfer\UserCriteriaTransfer;
 
 interface MerchantAgentRepositoryInterface
 {
-    /**
-     * @param \Generated\Shared\Transfer\QueryCriteriaTransfer $queryCriteriaTransfer
-     * @param \Generated\Shared\Transfer\UserCriteriaTransfer $userCriteriaTransfer
-     *
-     * @return \Generated\Shared\Transfer\QueryCriteriaTransfer
-     */
     public function expandUserQueryCriteria(
         QueryCriteriaTransfer $queryCriteriaTransfer,
         UserCriteriaTransfer $userCriteriaTransfer

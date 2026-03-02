@@ -13,12 +13,6 @@ use Orm\Zed\User\Persistence\Map\SpyUserTableMap;
 
 class MerchantAgentRepository implements MerchantAgentRepositoryInterface
 {
-    /**
-     * @param \Generated\Shared\Transfer\QueryCriteriaTransfer $queryCriteriaTransfer
-     * @param \Generated\Shared\Transfer\UserCriteriaTransfer $userCriteriaTransfer
-     *
-     * @return \Generated\Shared\Transfer\QueryCriteriaTransfer
-     */
     public function expandUserQueryCriteria(
         QueryCriteriaTransfer $queryCriteriaTransfer,
         UserCriteriaTransfer $userCriteriaTransfer
